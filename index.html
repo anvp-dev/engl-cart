@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap&_v=20220414163614" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+
+</header>
+        <main class="page">
+
+
+            <div class="container">
+                <div class="game">
+                    <h2 class="reaction"></h2>
+                    <div class="game__picture">
+                        <div class="game__img _img ">
+                            <img class="is-active" src="./img/1.jpg" alt="she">
+                        </div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="game__answer">
+                        <label class="game__answer-item">
+                            <input type="radio" name="answer" data-answer="he">
+                            He
+                        </label>
+                        <label class="game__answer-item">
+                            <input type="radio" name="answer" data-answer="she">
+                            She
+                        </label>
+                        <label class="game__answer-item">
+                            <input type="radio" name="answer" data-answer="they">
+                            They
+                        </label>
+                        <label class="game__answer-item">
+                            <input type="radio" name="answer" data-answer="it">
+                            it
+                        </label>
+                        <!-- next button -->
+                        <div class="wrap-btn">
+                            <button class="next" type="button">Next</button>
+                        </div>
+                    </div>
+
+                    <p class="score">Набрано очков: <span>0</span></p>
+                    <p class="attempt">Всего попыток: <span>0</span></p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+
+</footer>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
