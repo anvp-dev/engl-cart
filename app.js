@@ -72,7 +72,7 @@ window.addEventListener("DOMContentLoaded", () => {
         }
 
         if (attrButton !== pic && flag) {
-          headline.innerHTML = `Не правильно <img class="reaction__img" src="./img/smile/sad.png" alt="">`;
+          headline.innerHTML = `Неправильно <img class="reaction__img" src="./img/smile/sad.png" alt="">`;
           flag = false;
           attempt += 1;
           document.querySelector(".attempt span").textContent = attempt;
